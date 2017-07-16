@@ -48,7 +48,8 @@ module.exports = function (session) {
           password: auth[1],
           host: params.hostname,
           port: port,
-          database: database
+          database: database,
+          ssl: true
         };
       }
 
